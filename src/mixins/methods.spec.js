@@ -20,7 +20,6 @@ describe('Methods', () => {
             data(){
                 return{
                     api:'https://www.themealdb.com/api/json/v1/1/search.php?s=dal',
-                    meals:[],
                 }
             },
             mixins: [Methods],
@@ -64,13 +63,5 @@ describe('Methods', () => {
          await flushPromises();
 
     })
-
-
-    //   describe('sampleMethod()', () => {
-    //     it('describe what it should do', () => {
-    //       jest.spyOn(wrapper.vm, getRecipeList);
-    //       expect(wrapper.vm.getRecipeList).toHaveBeenCalledWith();
-    //     });
-    //   });
 
 });
