@@ -2,6 +2,11 @@
 
 ## Project setup
 ```
+A website which allows you to generate a random recipe when you are not sure about what to cook and also search for different recipes from around the world.
+```
+
+## Project setup
+```
 npm install
 ```
 
